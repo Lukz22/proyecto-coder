@@ -69,6 +69,14 @@ ul {
     margin: 0rem;
 }
 
+.linea {
+    height: 2px;
+    background-color: var(--negro);
+    border: none;
+    margin: 1rem 0;
+}
+
+
 /*FIN GENERALES*/
 
 
@@ -501,6 +509,55 @@ ul {
     padding: 1rem 2rem;
     width: 100% 100%;
 }
+
+
+/* Main venta */
+
+.main__posicionamiento__compra {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.main__imagen__compra {
+    width: 30rem;
+    height: 30rem;
+    margin-right: 1rem;
+}
+
+.main__informacion__compra {
+    margin-left: 1rem;
+}
+
+.main__titulo__compra {
+    margin-bottom: 2rem;
+}
+
+.main__texto__compra {
+    font-family: var(--fuenteParrafos);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.main__precio__compra {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.main__adicional__compra {
+    color: forestgreen;
+    margin-bottom: 0.5rem;
+}
+
+.main__cantidad__compra {
+    align-items: center;
+    text-align: center;
+    width: 2.5rem;
+
+    
+}
+
 
 /* Fin Main */
 

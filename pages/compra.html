@@ -54,30 +54,32 @@
     <main><!--comienzo del main-->
             <section class="main__posicionamiento__compra">
                 <div>
-                    <img src="../public/productomasvendido1.jpg" alt="Tarjeta de Video RTX2060 MSI Ventus">
+                    <img class="main__imagen__compra" src="../public/productomasvendido1.jpg" alt="Tarjeta de Video RTX2060 MSI Ventus">
                 </div>
 
-                <div>
-                    <div>
+                <div class="main__informacion__compra">
+                    <div class="main__titulo__compra">
                         <h2>Tarjeta de Video RTX2060 MSI Ventus</h2>
                     </div>
 
                     <div>
-                        <p><span>Precio:</span> $ 100.000</p>
-                    </div>
+                        <p class="main__texto__compra">Precio:<span class="main__precio__compra">$100.000</span></p>
 
                     <div>
                         <form action="">
-                            <label class="form__label" for="cantidad">Cantidad:</label>
-                            <input type="number" value="1" max="5" min="1">
+                            <label class="main__texto__compra" for="cantidad">Cantidad:</label>
+                            <input class="main__cantidad__compra" type="number" value="1" max="5" min="1">
                         </form>
                     </div>
+
+                    <hr class="linea">
+
                     <div>
-                        <p>Stock Disponible</p> 
+                        <p class="main__adicional__compra">Stock Disponible</p> 
                     </div>
 
                     <div>
-                        <p>Envio gratis</p>
+                        <p class="main__adicional__compra">Envio gratis</p>
                     </div>
                 </div>
             </section>
