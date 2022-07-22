@@ -767,6 +767,15 @@ ul {
         width: 100%;
     }
 
+    /*  mq compra */
+
+    .main__posicionamiento__compra {
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        margin: 2rem auto;
+    }
+
 
 /* mq nosotros */
 
@@ -829,6 +838,13 @@ ul {
         transform: none;
         position: none;
     }
+
+ /* mq compra */
+
+.main__imagen__compra {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* mq footer */
 
