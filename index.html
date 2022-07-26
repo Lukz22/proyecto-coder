@@ -20,7 +20,7 @@
 
 <body class="posicionamiento">
     <Header class="header"><!--Comienzo del header-->
-        <div>
+        <div class="header__barra__mobile">
             <div class="header__barra">
                 <p class="no-margin"> 
                     <a class="header__logo" href="index.html">TECH<span class="header__estilo__logo">STORE</span></a> <!--El span es para aplicarle un estilo diferente-->
@@ -30,25 +30,48 @@
                     <input class="header__form__input" type="submit" value="Buscar">
                 </form>
             </div> <!--No se si una barra de busqueda se haga con un form pero lo puse para visualizar como seria-->
-            <Nav class="header__barra__navegacion">  <!--Comienzo del menu principal-->
-                <ul class="header__barra__lista">
-                    <li>
-                        <a class="header__barra__a pag__actual" href="index.html">Inicio</a>
+            <nav class="navbar navbar-expand-lg header__barra__navegacion">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link pag__actual" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="./pages/producto.html">Electrodomesticos</a></li>
+                        <li><a class="dropdown-item" href="./pages/producto.html">Computacion</a></li>
+                        <li><a class="dropdown-item" href="./pages/producto.html">Celulares</a></li>
+                        <li><a class="dropdown-item" href="./pages/producto.html">Accesorios</a></li>
+                        <li><a class="dropdown-item" href="./pages/producto.html">Televisores</a></li>
+                        </ul>
                     </li>
-                    <li> 
-                        <a class="header__barra__a" href="pages/producto.html"> Productos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
                     </li>
-                    <li>
-                        <a class="header__barra__a" href="pages/ofertas.html">Ofertas</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
                     </li>
-                    <li>
-                        <a class="header__barra__a" href="pages/nosotros.html">Nosotros</a> 
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                     </li>
-                    <li>
-                        <a class="header__barra__a" href="pages/contacto.html">Contacto</a> 
-                    </li>
-                </ul>
-            </Nav>
+                      
+                        
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            
         </div>
         <div class="header__banner black">
             <div class="contenedor__banner__texto">
