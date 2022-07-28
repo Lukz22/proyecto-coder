@@ -226,13 +226,6 @@ ul {
 
 /*Main index*/
 
-.posicionamiento {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "main main aside"
-    "footer footer footer";
-}
 
 .header {
     grid-area: header;
@@ -838,6 +831,10 @@ ul {
 
 /* mq productos */
 
+    .col-10 {
+        width: 100%;
+    }
+
     .main__contenedor__titulo {
 
         width: 70%;
@@ -897,8 +894,17 @@ ul {
     }
 }
 
+/* Mq Bootstrap */
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 100vw;
+    }
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 1rem;
     }
 }
+
