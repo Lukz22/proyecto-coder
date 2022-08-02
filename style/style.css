@@ -286,10 +286,9 @@ ul {
     color: #16a816;
 }
 
-.main__boton {
-
-    display: flex;
-    justify-content: center;
+.btn-outline-dark {
+    color: var(--negro);
+    border-radius: 0;
 }
 
 
@@ -394,7 +393,7 @@ ul {
     display: flex;
     gap: 2rem;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
 }
 
 .firma {
