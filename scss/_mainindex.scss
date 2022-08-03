@@ -1,0 +1,153 @@
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+    align-items: center;
+}
+
+
+.main__posicionamiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.main__contenedor__producto {
+    
+    background-color: $blanco;
+    width: 12rem;
+    height: 16rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1rem 2rem;
+
+    transition-duration: 0.5s ;
+}
+
+.main__contenedor__producto:hover {
+    transform: scale(1.2, 1.2);
+    position: static;
+}
+
+.main__productos {
+    display: block;
+    margin: 0 auto;
+    width: 9rem;
+    height: 9rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.main__productos__texto {
+
+    text-align: center;
+}
+
+.main__estilo__oferta {
+    text-decoration: line-through;
+}
+
+.main__estilo__descuento {
+    color: #16a816;
+}
+
+.btn-outline-dark {
+    color: $negro;
+    border-radius: 0;
+}
+
+
+/*Main Categorias */
+
+.main__contenedor__categorias {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    width: 30rem;
+}
+
+
+
+.main__categoria {
+    padding: 0.5rem;
+    border: $negro 2px solid;
+    margin: 0.1rem;
+}
+
+.categoria {
+    display: flex;
+    margin: 0 auto;
+    width: 7rem;
+    height: 7rem;
+}
+
+
+.main__contenedor__categorias .categoria__a span:first-child {
+    display: block;
+    margin: 0 auto;
+  }
+
+.main__contenedor__categorias .categoria__a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .main__contenedor__categorias .categoria__a span:last-child {
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: $fuenteHeading;
+    color: $primario;
+    font-weight: 700;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+  }
+
+  .main__contenedor__categorias .categoria__a span {
+    transition: transform 0.2s ease-out;
+  }
+   
+  .main__contenedor__categorias .categoria__a:hover span:first-child {
+    transform: translateY(100%);
+  }
+   
+  .main__contenedor__categorias .categoria__a:hover span:last-child {
+    transform: none;
+  }
+
+  .main__contenedor__categorias[data-animation="to-top"] a span:last-child {
+    transform: translateY(100%);
+  }
+   
+  .main__contenedor__categorias[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-100%);
+  }
+   
+  .main__contenedor__categorias[data-animation="to-right"] a span:last-child {
+    transform: translateX(-100%);
+  }
+   
+  .main__contenedor__categorias[data-animation="to-right"] a:hover span:first-child {
+    transform: translateX(100%);
+  }
+   
+  .main__contenedor__categorias[data-animation="to-left"] a span:last-child {
+    transform: translateX(100%);
+  }
+   
+  .main__contenedor__categorias[data-animation="to-left"] a:hover span:first-child {
+    transform: translateX(-100%);
+  }

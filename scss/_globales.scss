@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fuenteParrafos;
+    color: $negro;
+    line-height: normal;
+}
+
+h2 {
+    font-family: $fuenteHeading;
+}
+
+h3 {
+    font-size: 1rem;
+    
+}
+
+h4 {
+    font-size: 0.9rem;
+    margin: 0.5rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: $negro;
+}
+
+a:hover {
+    color: $negro;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+li{
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.no-margin {
+    margin: 0rem;
+}

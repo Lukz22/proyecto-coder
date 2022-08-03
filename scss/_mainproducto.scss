@@ -1,0 +1,65 @@
+.main__productos__posicionamiento {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__productos__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+
+
+.main__barra {
+    font-weight: 700;
+    width: 15rem;
+    background-color: $primario;
+    border-radius: 3px;
+    height: 100%;
+    padding-bottom: 1rem;
+    
+}
+
+.main__titulo__barra {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    color: $primario;
+}
+
+.productos__barra__lista {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+ 
+}
+
+.productos__barra__li {
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+    padding: 1rem;
+    
+}
+
+.productos__barra__a {
+    width: 15rem;
+    height: 15rem;
+    transition-duration: 0.3s;
+}
+
+.productos__barra__a:hover {
+    color: $blanco;
+    background-color: $negro;
+    padding: 1rem 2rem;
+    width: 100% 100%;
+}
+
+.active>.page-link, .page-link.active {
+
+    background-color: $primario;
+    border-color: $primario;
+}

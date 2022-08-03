@@ -1,0 +1,67 @@
+.footer__posicionamiento {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: $negro;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.footer__link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__seccion {
+    margin: 2rem;
+}
+
+.footer__seccion__titulo {
+    color: $blanco;
+    margin: 1rem;
+
+}
+
+.footer__a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    color: $blanco;
+    font-size: 0.7rem;
+}
+
+.footer__seccion__titulo__newsletter {
+
+    color: $negro;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}    
+.footer__contenedor__newsletter {
+    background-color: $primario;
+    width: 30rem;
+    padding: 0.5rem;
+    color: $negro;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+}
+
+
+.footer__derechos {
+    text-size-adjust: 70%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+

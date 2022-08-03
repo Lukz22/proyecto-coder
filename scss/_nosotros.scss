@@ -1,0 +1,18 @@
+.main__local__imagen {
+    width: 34rem;
+    height: 24rem;
+}
+
+.main__posicionamiento__nosotros {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.firma {
+    font-family: $fuenteFirma;
+    font-size: 3rem;
+    text-align: end;
+    text-decoration: underline;
+}

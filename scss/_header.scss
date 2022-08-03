@@ -1,0 +1,131 @@
+.header__barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 6rem 1rem 6rem;
+
+}
+
+
+.header__logo {
+    font-family: $fuenteHeading;
+    color: $primario;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.header__estilo__logo {
+    color: $negro;
+}
+
+.header__form {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+.header__form__label {
+    height: 3rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.header__form__input {
+    background-color: $negro;
+    color: $blanco;
+    font-family: $fuenteHeading;
+    margin-left: -0.5rem;
+    height: 3rem;
+    width: 5rem;
+    border: 0;
+
+    cursor: pointer;
+}
+
+/*Barra inferior*/
+
+.header__barra__navegacion {
+
+    background-color: $primario;
+    padding-left: 2rem;
+
+}
+
+.header__barra__lista {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+.nav-link {
+    font-weight: 700;
+    padding: 1rem;
+    
+    transition-duration: 0.5s ease;
+}
+
+.nav-link:hover {
+    background-color: $negro;
+    color: $primario;
+}
+
+
+.header__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5) url(../public/5814954.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: darken;
+    height: 45rem;
+    
+
+}
+
+
+.header__banner__texto {
+    font-family: $fuenteHeading;
+    text-align: center;
+    color: $primario;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 6rem;
+    padding: 0 1rem;
+    margin: 0;
+
+}
+
+.header__banner__subtitulo {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.main__contenedor__titulo {
+    display: flex;
+    border: $primario 2px solid;
+    justify-content: center;
+    width: 30rem;
+    margin: 2rem auto;
+}
+
+.main__titulo {
+    font-family: $fuenteHeading;
+    font-weight: 700;
+    color: var(--negro);
+    margin: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.pag__actual {
+    background-color: $negro;
+    color: $blanco;
+
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
