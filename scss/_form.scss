@@ -26,24 +26,12 @@
 }
 
 .form__textarea {
-    height: 12rem;
+    @include size (12rem, 85%);
     border: $negro 0.1px solid;
-    width: 85%;
     margin: 0.2rem;
 }
 
 .form__boton {
     display: flex;
     justify-content: flex-end;
-}
-
-.boton {
-    background-color: $negro;
-    color: $blanco;
-    padding: 0.6rem;
-    margin-top: 1rem;
-    font-family: $fuenteHeading;
-    width: 10rem;
-
-    cursor: pointer;
 }

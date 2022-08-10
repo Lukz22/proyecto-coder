@@ -10,9 +10,8 @@ body {
     line-height: normal;
 }
 
-h2 {
-    font-family: $fuenteHeading;
-}
+
+
 
 h3 {
     font-size: 1rem;
@@ -66,3 +65,50 @@ ul {
 .no-margin {
     margin: 0rem;
 }
+
+.boton {
+    background-color: $negro;
+    color: $blanco;
+    font-family: $fuenteHeading;
+    cursor: pointer;
+}
+
+.boton-primario {
+    @extend .boton;
+
+    padding: 0.6rem;
+    margin-top: $spacing;
+    width: 10rem;
+}
+
+.boton-secundario{
+
+    @extend .boton;
+
+    margin-left: -0.5rem;
+    height: 3rem;
+    width: 5rem;
+    border: 0;
+}
+
+
+@mixin size ($alto, $ancho){
+
+    height: $alto;
+    width: $ancho;
+    
+}
+// //mapas 
+
+// $color: (
+//     h1: $primario,
+//     footer: $blanco,
+//     formulario: $negro
+// );
+
+// @each $texto, $valor in $color {
+//     .text-#{$texto} {
+//         color: $color;
+//     }
+    
+// }

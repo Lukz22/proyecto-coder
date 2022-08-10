@@ -1,11 +1,11 @@
 .main__local__imagen {
-    width: 34rem;
-    height: 24rem;
+    @include size (34rem, 24rem);
+
 }
 
 .main__posicionamiento__nosotros {
     display: flex;
-    gap: 2rem;
+    gap: $spacing*2;
     margin: 0 auto;
     width: 60%;
 }

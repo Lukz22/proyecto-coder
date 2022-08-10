@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 6rem 1rem 6rem;
+    margin: $spacing $spacing*6;
 
 }
 
@@ -31,24 +31,12 @@
     padding: 0rem;
 }
 
-.header__form__input {
-    background-color: $negro;
-    color: $blanco;
-    font-family: $fuenteHeading;
-    margin-left: -0.5rem;
-    height: 3rem;
-    width: 5rem;
-    border: 0;
-
-    cursor: pointer;
-}
-
 // Barra inferior
 
 .header__barra__navegacion {
 
     background-color: $primario;
-    padding-left: 2rem;
+    padding-left: $spacing*2;
 
 }
 
@@ -62,7 +50,7 @@
 
 .nav-link {
     font-weight: 700;
-    padding: 1rem;
+    padding: $spacing;
     
     transition-duration: 0.5s ease;
 }
@@ -94,22 +82,24 @@
     color: $primario;
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 6rem;
-    padding: 0 1rem;
+    padding: 0 $spacing;
     margin: 0;
 
 }
 
 .header__banner__subtitulo {
-    padding-top: 2rem;
+    font-family: $fuenteHeading;
+    padding-top: $spacing*2;
     text-align: center;
 }
 
 .main__contenedor__titulo {
+    
     display: flex;
     border: $primario 2px solid;
     justify-content: center;
     width: 30rem;
-    margin: 2rem auto;
+    margin: $spacing*2 auto;
 }
 
 .main__titulo {

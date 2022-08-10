@@ -17,19 +17,19 @@
     background-color: $primario;
     border-radius: 3px;
     height: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: $spacing;
     
 }
 
 .main__titulo__barra {
     background-color: black;
-    padding: 1rem;
+    padding: $spacing;
     text-align: center;
     color: $primario;
 }
 
 .productos__barra__lista {
-    margin-top: 2rem;
+    margin-top: $spacing*2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,20 +41,19 @@
 .productos__barra__li {
     margin-top: 0.2rem;
     font-size: 1.1rem;
-    padding: 1rem;
+    padding: $spacing;
     
 }
 
 .productos__barra__a {
-    width: 15rem;
-    height: 15rem;
+    @include size(15rem, 15rem);
     transition-duration: 0.3s;
 }
 
 .productos__barra__a:hover {
     color: $blanco;
     background-color: $negro;
-    padding: 1rem 2rem;
+    padding: $spacing $spacing*2;
     width: 100% 100%;
 }
 

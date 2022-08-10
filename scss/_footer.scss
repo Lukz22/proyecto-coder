@@ -6,8 +6,8 @@
 .footer {
     grid-area: footer;
     background-color: $negro;
-    padding: 2rem;
-    margin-top: 2rem;
+    padding: $spacing*2;
+    margin-top: $spacing*2;
 }
 
 .footer__link {
@@ -16,19 +16,19 @@
 }
 
 .footer__seccion {
-    margin: 2rem;
+    margin: $spacing*2;
 }
 
 .footer__seccion__titulo {
     color: $blanco;
-    margin: 1rem;
+    margin: $spacing;
 
 }
 
 .footer__a {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0.5rem;
+    margin-bottom: $spacing/2;
     color: $blanco;
     font-size: 0.7rem;
 }
@@ -43,17 +43,17 @@
 .footer__contenedor__newsletter {
     background-color: $primario;
     width: 30rem;
-    padding: 0.5rem;
+    padding: $spacing/2;
     color: $negro;
     border-radius: 0.3rem;
-    margin-top: 1rem;
+    margin-top: $spacing;
 }
 
 
 .footer__derechos {
     text-size-adjust: 70%;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: $spacing;
     margin-bottom: -1.5rem;
 }
 
@@ -61,7 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    margin: 1rem;
+    gap: $spacing*2;
+    margin: $spacing;
 }
 

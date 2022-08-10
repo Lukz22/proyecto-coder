@@ -21,12 +21,11 @@
 }
 
 .main__contenedor__producto {
-    
+    @include size (16rem, 12rem,);
+
     background-color: $blanco;
-    width: 12rem;
-    height: 16rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 1rem 2rem;
+    margin: $spacing $spacing*2;
 
     transition-duration: 0.5s ;
 }
@@ -37,11 +36,11 @@
 }
 
 .main__productos {
+    @include size (9rem, 9rem);
+
     display: block;
     margin: 0 auto;
-    width: 9rem;
-    height: 9rem;
-    padding: 0.5rem 0.5rem 0 0.5rem;
+    padding: $spacing/2 $spacing/2 0 $spacing/2;
 }
 
 .main__productos__texto {
@@ -76,16 +75,16 @@
 
 
 .main__categoria {
-    padding: 0.5rem;
+    padding: $spacing/2;
     border: $negro 2px solid;
     margin: 0.1rem;
 }
 
 .categoria {
+    @include size (7rem, 7rem);
+
     display: flex;
     margin: 0 auto;
-    width: 7rem;
-    height: 7rem;
 }
 
 
