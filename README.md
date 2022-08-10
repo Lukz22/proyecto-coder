@@ -10,42 +10,42 @@
 
 <h3 align="left">Cambios</h3>
 
-<p align="left">_variables // Agregue la variable spacing</p>
+<p align="left"> _variables // Agregue la variable spacing</p>
 
-<p align="left">_globales // Agregue un mapa, mixin y extend</p>
+<p align="left"> _globales // Agregue un mapa, mixin y extend</p>
 
-<p align="left">Index // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Envio a todo el país"</p>
+<p align="left"> Index // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Envio a todo el país"</p>
 
-<p align="left">Index // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos."</p>
+<p align="left"> Index // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos."</p>
 
-<p align="left">Index // Agregue este Título: "Index || Inicio"</p>
+<p align="left"> Index // Agregue este Título: "Index || Inicio"</p>
 
 <p align="left"> Compra // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Ofertas, Envio a todo el país, Compra de producto, Informacion detallada, Stock Disponible, Envio gratis"</p>
 
 <p align="left"> Compra // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Venta e informacion detallada del producto"</p>
 
-<p align="left">Compra // Agregue este Título: "TECHSTORE || Compra de producto"</p>
+<p align="left"> Compra // Agregue este Título: "TECHSTORE || Compra de producto"</p>
 
 <p align="left"> Contacto // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Envio a todo el país, contacto, mensaje"</p>
 
 <p align="left"> Contacto // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Contactanos para mas información"</p>
 
-<p align="left">contacto // Agregue este Título: "TECHSTORE || Contacto"</p>
+<p align="left"> Contacto // Agregue este Título: "TECHSTORE || Contacto"</p>
 
 <p align="left"> Nosotros // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Envio a todo el país, Informacion Sobre nosotros"</p>
 
 <p align="left"> Nosotros // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos, conoce un poco más de nosotros"</p>
 
-<p align="left">contacto // Agregue este Título: "TECHSTORE || Nosotros"</p>
+<p align="left"> Nosotros // Agregue este Título: "TECHSTORE || Nosotros"</p>
 
 <p align="left"> Ofertas // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Ofertas, Envio a todo el país, Descuento"</p>
 
 <p align="left"> Ofertas // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Mira nuestras ofertas"</p>
 
-<p align="left">contacto // Agregue este Título: "TECHSTORE || Ofertas"</p>
+<p align="left"> Ofertas // Agregue este Título: "TECHSTORE || Ofertas"</p>
 
 <p align="left"> Producto // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Ofertas, Envio a todo el país, Ver productos, Electrodomesticos, Celulares, Computación, Accesorios, Televisores"</p>
 
 <p align="left"> Producto // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Mira nuestros productos"</p>
 
-<p align="left">contacto // Agregue este Título: "TECHSTORE || Productos"</p>
+<p align="left"> Producto // Agregue este Título: "TECHSTORE || Productos"</p>
