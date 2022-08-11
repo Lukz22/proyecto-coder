@@ -98,17 +98,19 @@ ul {
     width: $ancho;
     
 }
-// //mapas 
 
-// $color: (
-//     h1: $primario,
-//     footer: $blanco,
-//     formulario: $negro
-// );
+//mapas 
+$colors: (
+    "h1": $primario, 
+    "footer": $blanco, 
+    "categorias": $grisoscuro
+);
 
-// @each $texto, $valor in $color {
-//     .text-#{$texto} {
-//         color: $color;
-//     }
+
+@each $texto, $valor in $colors {
+    .text-#{$texto} {
+        color: $valor;
+    }
     
-// }
+}
+
