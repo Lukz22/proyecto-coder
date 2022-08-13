@@ -35,11 +35,6 @@ img {
   width: 100%;
   height: 100%; }
 
-p {
-  font-weight: 700;
-  font-size: 0.9rem;
-  line-height: 1.5; }
-
 ul {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -420,6 +415,10 @@ ul {
   margin: 0 auto;
   width: 60%; }
 
+.main__nosotros__texto {
+  font-weight: 700;
+  line-height: 1.5; }
+
 .firma {
   font-family: "The Nautigal", cursive;
   font-size: 3rem;
@@ -462,7 +461,9 @@ ul {
   margin: 0 1rem; }
 
 .main__titulo__compra {
-  margin-bottom: 2rem; }
+  display: flex;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #254596; }
 
 .main__texto__compra {
   font-family: "Open Sans", sans-serif;
@@ -482,6 +483,31 @@ ul {
   align-items: center;
   text-align: center;
   width: 2.5rem; }
+
+.main__section__tabla__compra {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main__tabla__titulo__compra {
+  margin: 2rem;
+  padding: 0.5rem;
+  border-bottom: 3px solid #254596; }
+
+.main__tabla__compra {
+  border: 1px solid #5c5c5c;
+  width: 70%; }
+
+.main_tabla_th_compra {
+  border-right: 1px solid #5c5c5c;
+  border-bottom: 1px solid #5c5c5c;
+  padding: 0.5rem;
+  width: 30%; }
+
+.main_tabla_td_compra {
+  border-bottom: 1px solid #5c5c5c;
+  padding: 0.5rem;
+  width: 70%; }
 
 @media screen and (max-width: 1630px) {
   .posicionamiento {
@@ -510,8 +536,8 @@ ul {
   .header__barra__navegacion {
     padding-left: 0; }
   .main__contenedor__producto {
-    height: 25rem;
-    width: 12rem;
+    height: 12rem;
+    width: 25rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -538,6 +564,16 @@ ul {
     align-items: center;
     width: 85%;
     margin: 2rem auto; }
+  .aos-animate {
+    opacity: 1;
+    transform: translateZ(0); }
+  [data-aos^='fade'][data-aos^='fade'] {
+    opacity: 1;
+    transition-property: none; }
+  [data-aos='fade-right'] {
+    transform: none; }
+  [data-aos='fade-left'] {
+    transform: none; }
   .main__posicionamiento__nosotros {
     flex-direction: column; }
   .main__local__imagen {
@@ -567,7 +603,9 @@ ul {
     position: none; }
   .main__imagen__compra {
     max-width: 100%;
-    max-height: 100%; }
+    height: 100%; }
+  .main__tabla__compra {
+    width: 95%; }
   .footer__posicionamiento {
     flex-direction: column;
     align-items: center; }
