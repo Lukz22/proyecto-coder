@@ -6,11 +6,11 @@
 
 .main__imagen__compra {
     @include size (30rem, 30rem);
-    margin: 0 $spacing;
+    margin: 0 $spacing*2;
 }
 
 .main__informacion__compra {
-    margin: 0 $spacing;
+    margin: 0 $spacing*2;
 }
 
 .main__titulo__compra {
