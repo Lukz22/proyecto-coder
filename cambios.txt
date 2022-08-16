@@ -1,0 +1,41 @@
+Modificaciones
+
+_variables // Agregue la variable spacing
+
+_globales // Agregue un mapa, mixin y extend
+
+Index // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Envio a todo el país"
+
+Index // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos."
+
+Index // Agregue este Título: "Index || Inicio"
+
+Compra // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Ofertas, Envio a todo el país, Compra de producto, Informacion detallada, Stock Disponible, Envio gratis"
+
+Compra // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Venta e informacion detallada del producto"
+
+Compra // Agregue este Título: "TECHSTORE || Compra de producto"
+
+Contacto // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Envio a todo el país, contacto, mensaje"
+
+Contacto // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Contactanos para mas información"
+
+Contacto // Agregue este Título: "TECHSTORE || Contacto"
+
+Nosotros // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Envio a todo el país, Informacion Sobre nosotros"
+
+Nosotros // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos, conoce un poco más de nosotros"
+
+Nosotros // Agregue este Título: "TECHSTORE || Nosotros"
+
+ Ofertas // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Ofertas, Envio a todo el país, Descuento"
+
+Ofertas // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Mira nuestras ofertas"
+
+Ofertas // Agregue este Título: "TECHSTORE || Ofertas"
+
+Producto // Agregue estas keywords: "Techstore, Venta de productos tegnologicos, Ryzen, Logitech, Samsung, lenovo, Buenos Aires, Ofertas, Envio a todo el país, Ver productos, Electrodomesticos, Celulares, Computación, Accesorios, Televisores"
+
+Producto // Agregue esta description: "Somos Techstore una empresa dedicada a la venta de productos tecnológicos. Mira nuestros productos"
+
+Producto // Agregue este Título: "TECHSTORE || Productos"
